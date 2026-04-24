@@ -13,11 +13,11 @@ import './App.css'
 function App() {
   return (
     <div style={{ position: 'relative' }}>
-      <img src={body} alt="" style={{ marginTop: '40rem' }} />
+      <img src={body} alt="" style={{ marginTop: '40rem', marginLeft: '60rem' }} />
 
       <AniImageOverlay
-        coord_x={32}
-        coord_y={543}
+        coord_x={993}
+        coord_y={542}
         dragable={false}
         images={[
           { image: ani1, duration: 5000 },
@@ -25,8 +25,8 @@ function App() {
         ]}
       />
       <AniImageOverlay
-        coord_x={32}
-        coord_y={543}
+        coord_x={294}
+        coord_y={416}
         coord_z={5}
         dragable={false}
         images={[
@@ -38,7 +38,7 @@ function App() {
         coord_x={200}
         coord_y={543}
         
-        dragable={true}
+        dragable={false}
         images={[
           { image: ani3, duration: 800 },
           { image: ani4, duration: 800 },
